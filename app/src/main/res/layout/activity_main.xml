@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Calculator"
+        android:textSize="130px"
+        android:textColor="#611313"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="40px"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A trusted tool for calculation"
+        android:textSize="75px"
+        android:textColor="#A57C14"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="40px"
+        android:layout_marginBottom="400px"
+        />
+    
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number 1"
+        android:layout_marginTop="60px"
+        android:textSize="70px"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"
+        />
+    
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number 2"
+        android:inputType="numberDecimal"
+        android:textSize="70px"
+        android:layout_gravity="center"
+        android:layout_marginBottom="120px"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        
+        <Button
+            android:id="@+id/addButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add"
+            android:textColor="#ffffff"
+            android:backgroundTint="#EC4B4B"
+            android:textSize="60px"
+            android:textStyle="bold"
+            />
+        
+        <Button
+        android:id="@+id/subButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="sub"
+        android:textColor="#ffffff"
+        android:backgroundTint="#3AD73A"
+        android:textSize="60px"
+        android:textStyle="bold"
+        />
+        <Button
+            android:id="@+id/prodButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Prod"
+            android:textColor="#ffffff"
+            android:backgroundTint="#40A1D5"
+            android:textSize="60px"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/divButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Div"
+            android:textColor="#ffffff"
+            android:backgroundTint="#CF47E1"
+            android:textSize="60px"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="100px"
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
